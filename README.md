@@ -1,4 +1,4 @@
-# OctoberCMS-usuful-unique-plugins-components
+# OctoberCMS-useful-unique-plugins-components
 Simple plugins and components for OctoberCMS, ready to use
 
 <h2>Contact form</h2>
