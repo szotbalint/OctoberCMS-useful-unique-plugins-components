@@ -1,6 +1,6 @@
 # OctoberCMS-useful-unique-plugins-components
 Simple plugins and components for OctoberCMS, ready to use.<br>
-<h2>Installation<h2>
+<h2>Installation</h2>
   
   <p>You have to copy the necessary folder into the plugins folder. 
   There are already is created a registerComponents() function. 
