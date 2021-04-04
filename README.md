@@ -2,8 +2,9 @@
 Simple plugins and components for OctoberCMS, ready to use.<br>
 <h2>Installation<h2>
   
-You have to copy the necessary folder into the plugins folder. 
-There are already is created a registerComponents() function. 
+  <p>You have to copy the necessary folder into the plugins folder. 
+  There are already is created a registerComponents() function. 
+   </p>
 
 <h2>Contact form</h2>
   <p>
