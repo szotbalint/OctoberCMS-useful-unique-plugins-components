@@ -1,0 +1,59 @@
+<!--Contact Section-->
+<section class="contact-section">
+    <div class="auto-container">
+        <!-- Kapcsolat urlap -->
+        <div class="form-box">
+            <div class="sec-title">
+                <h2>Írjon nekünk üzenetet<span class="dot">.</span></h2>
+            </div>
+            <div class="default-form">
+                <form id="contact-form" data-request="contactform::onSend" data-request-validate data-request-flash>
+                    <div class="row clearfix">
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                            <div class="field-inner">
+                                <input type="text" name="username" value="" placeholder="Név" required="" />
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                            <div class="field-inner">
+                                <input type="email" name="email" value="" placeholder="E-mail cím" required="" />
+                                <span data-validate-for="email">Az email megadása kötelező a helyes formátumban!</span>
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                            <div class="field-inner">
+                                <input type="text" name="phone" value="" placeholder="Telefonszám" required="" />
+                                <span data-validate-for="email">Az email megadása kötelező a helyes formátumban! </br>
+                                +36-20-123-45678
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                            <div class="field-inner">
+                                <input type="text" name="subject" value="" placeholder="Tárgy" required="" />
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                            <div class="field-inner">
+                                <textarea name="content" placeholder="Üzenet" required=""></textarea>
+                            </div>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input float-none" type="checkbox" value="" required="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Elfogadom az <a href="/adatkezelesi-tajekoztato">Adatkezelési Szabályzat</a>ot.
+                                </label>
+                        </div>
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                            <button type="submit" class="theme-btn btn-style-one">
+                                    <i class="btn-curve"></i>
+                                    <span class="btn-title">Üzenet küldése</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+</section>

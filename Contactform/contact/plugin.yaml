@@ -1,0 +1,6 @@
+plugin:
+    name: 'Szb.contact::lang.plugin.name'
+    description: 'Szb.contact::lang.plugin.description'
+    author: Szb
+    icon: oc-icon-adjust
+    homepage: ''
